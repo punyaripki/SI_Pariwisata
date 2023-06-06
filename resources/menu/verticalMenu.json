@@ -1,0 +1,98 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "Pengguna",
+      "slug": "crud",
+      "submenu": [
+        {
+          "url": "crud/admin",
+          "name": "Admin",
+          "icon": "",
+          "slug": "admin"
+        },
+        {
+          "url": "crud/pegawai",
+          "name": "Pegawai",
+          "icon": "",
+          "slug": "pegawai"
+        }
+      ]
+    },
+    {
+      "name": "Hotel",
+
+      "slug": "crud",
+      "submenu": [
+        {
+          "url": "crud/hotel",
+          "name": "Hotel",
+          "icon": "",
+          "slug": "hotel"
+        },
+        {
+          "url": "crud/kamar",
+          "name": "Kamar",
+          "icon": "",
+          "slug": "kamar"
+        },
+        {
+          "url": "crud/fasilitaskamar",
+          "name": "Fasiliatas Kamar",
+          "icon": "",
+          "slug": "fasitaskamar"
+        },
+        {
+          "url": "crud/pemesanan",
+          "name": "Pemesanan",
+          "icon": "",
+          "slug": "pemesanan"
+        },
+        {
+          "url": "crud/jenishotel",
+          "name": "Jenis Hotel",
+          "icon": "",
+          "slug": "jenishotel"
+        },
+        {
+          "url": "crud/jeniskamar",
+          "name": "Jenis Kamar",
+          "icon": "",
+          "slug": "jeniskamar"
+        }
+      ]
+    },
+    {
+      "name": "Wisata",
+
+      "slug": "crud",
+      "submenu": [
+        {
+          "url": "crud/wisata",
+          "name": "Wisata",
+          "icon": "",
+          "slug": "wisata"
+        },
+
+        {
+          "url": "crud/penilaian",
+          "name": "Penilaian",
+          "icon": "",
+          "slug": "penilaian"
+        },
+
+        {
+          "url": "crud/atraksi",
+          "name": "Atraksi",
+          "icon": "",
+          "slug": "atraksi"
+        }
+      ]
+    }
+  ]
+}
